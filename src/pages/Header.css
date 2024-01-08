@@ -1,0 +1,63 @@
+/* Header section start */
+.header-section                             {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color:#C8D6F4;
+    height: 124px; 
+  }
+  
+  .left-portion {
+    width: 260px;
+    background-color: white;
+    box-shadow: 4px 0 8px 0 rgba(0, 0, 0, 0.2);
+    transform: skewX(-30deg);
+    height: 125px;
+    width: 270px;
+    margin-left: -33px;
+    padding:30px;
+  }
+  
+  .brand-logo {
+    transform: skewX(30deg);
+    margin-left: 50px; 
+    height: 90px;
+    width: 90px; 
+    margin-bottom: 20px;
+    
+  }
+  
+  .right-portion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px; 
+    padding: 30px;
+  }
+  
+  .right-1 {
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    justify-content: space-around;
+    height: 35px;
+    width: 250px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .icon {
+    border-radius: 5px;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
